@@ -1,0 +1,20 @@
+name: Deploy Staging
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: Install deps
+        run: pnpm install
+      - name: Build all
+        run: pnpm build
+      - name: Deploy to S3 (placeholder)
+        run: echo "Deploy step here for frontend/backend"
