@@ -1,5 +1,13 @@
 # 🧱 Thin Slice Platform Template
 
+<div align="center" style="font-size: 2.5rem; color: #F7B32B; font-family: 'Segoe UI', 'Roboto', sans-serif; font-weight: 600; margin-bottom: 1rem;">
+    <span>Thin Slice Platform Template 🍕</span>
+    <br>
+    <span style="font-size: 1.25rem; color: #F7B32B;; font-weight: 400;">
+        Deliver a thin slice of an entire platform to get to prod faster.
+    </span>
+</div>
+
 ![PNPM](https://img.shields.io/badge/package%20manager-pnpm-%232C8EBB)
 ![Turborepo](https://img.shields.io/badge/build-monorepo%20with%20Turbo-blue)
 ![TypeScript](https://img.shields.io/badge/language-TypeScript-3178C6?logo=typescript&logoColor=white)
@@ -13,6 +21,8 @@
 ## 🚀 Overview
 
 This thin slice template helps you stand up a fully structured full-stack platform—fast. With just enough backend, frontend, cloud infrastructure, and CI/CD, it's perfect for staging environments, MVPs, and scalable projects with admin + user sections and mobile-ready architecture.
+
+> 🍕 Like a classic thin slice pizza, it's fast and ready for anything. Grab a piece and build your platform with extra jalapenos 🌶️🌶️ (features) or just sauce 🍅 (core essentials)!
 
 ---
 
